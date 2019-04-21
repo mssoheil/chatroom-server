@@ -7,7 +7,7 @@ const router = express.Router();
 const User = require("./../models/users.js");
 const Room = require("./../models/rooms.js");
 
-const VerifyToken = require("./VerifyToken");
+const VerifyToken = require("./verifyToken");
 
 const environment = process.env.NODE_ENV;
 
